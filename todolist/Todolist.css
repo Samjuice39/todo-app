@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+    background-color: #ccf4c8;
+}
+#head{
+    width: 1676px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    color: rgb(46, 107, 36);
+}
+.date{
+    color: rgb(46, 107, 36,0.5);
+}
+#text{
+    width: 1200px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20%;
+    position: relative;
+}
+input{
+    width: 1000px;
+    height: 50px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid rgba(34, 97, 24, 0.85);
+}
+#text button{
+    display: inline;
+    height: 50px;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid rgba(34, 97, 24, 0.85);
+    background-color: #e5ed79;
+}
+.f1 , .f2 ,.f3 , .f4 , .f5{
+    width: 15px;
+    height: 30px;
+    border-radius: 50% 50% 50% 10%;
+    transition: transform 0.3s ease;
+    border: 1px solid #ea9ac0;
+    background: linear-gradient(135deg,#f8c8d0,#f0a8b8);
+    position: absolute;
+    transform-origin: center center;
+}
+.f1{
+    right: 660px;
+    top: 15px;
+    transform: rotate(130deg);
+}
+.f2{
+    right: 663px;
+    transform: rotate(60deg);
+} 
+.f3{
+    top: 15px;
+    right: 640px;
+    transform: rotate(230deg);
+}
+.f4{
+    right: 635px;
+    transform: rotate(-80deg);
+}
+.f5{
+    right: 650px;
+    top: 45px;
+}
+button:hover{
+    cursor: pointer;
+}
+#list{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+#list{
+    max-width: 1000px;
+    border-radius: 5px;
+}
+#list li{
+    display: none;
+    margin: 5px 5px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    background-color: #fff;
+    flex-shrink: 1;
+}
+#list li:not(:empty){
+    display: block;
+}
+#list li:hover{
+    cursor: pointer;
+}
+#fn{
+    float: right;
+    width: 400px;
+}
+#fn li{
+    border: 1px solid rgb(27, 137, 23);
+    padding: 10px 5px;
+    text-align: center;
+    margin: 20px 5px;
+    font-size: 20px;
+    border-radius: 50%;
+    line-height: 100px;
+    background-color: #efeab9;
+}
+#fn li:hover{
+    cursor: pointer;
+}
+#body{
+    display: flex;
+    width: 1670px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.selected{
+    background-color: skyblue;
+}
+.iconfont{
+    font-size: large;
+}
+.icon-list{
+    font-size: 50px;
+    margin: 0 10px;
+}
