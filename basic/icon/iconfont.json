@@ -1,0 +1,44 @@
+{
+  "id": "5155429",
+  "name": "todolist",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14401735",
+      "name": "list",
+      "font_class": "list",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "765287",
+      "name": "完成",
+      "font_class": "shouye",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "2076418",
+      "name": "修改",
+      "font_class": "xiugai",
+      "unicode": "e8cf",
+      "unicode_decimal": 59599
+    },
+    {
+      "icon_id": "11195038",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "15726875",
+      "name": "清空",
+      "font_class": "qingkong",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    }
+  ]
+}
